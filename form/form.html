@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #name{
+            color: darkorange;
+        }
+        #country{
+            color: blue;
+        }
+        #email{
+            color: brown;
+        }
+        #birthday{
+            color: blueviolet;
+        }
+        fieldset{
+            color:darkmagenta;
+            background-color:chartreuse;
+        }
+        </style>
+</head>
+<body>
+    <h2>
+        <centre> REGISTRATION FORM </centre>
+    </h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label> NAME:</label>
+            <input type="text" id="name" placeholder="enter your name"><br><br>
+            <label>Email</label>
+            <input type="text" id="email"><br><br>
+            <label>Password</label>
+            <input type="password" id="Password"><br><br>
+            <label>Gender</label>
+            <input type="radio" id="male" value="male" name="gender">Male
+            <input type="radio" id="female" value="female" name="gender">female
+            <br><br>
+            <label>Birthday</label>
+            <input type="date" id="birtday" value="birthday"><br><br>
+            <label>Subjects</label>
+            <input type="checkbox" id="subjects" value="POLITICAL SCIENCE">POLITICAL SCIENCE
+            <input type="checkbox" id="subjects" value="SCIENCE"> SCIENCE
+            <input type="checkbox" id="subjects" value="COMPUTER SCIENCE">COMPUTER SCIENCE
+            <input type="checkbox" id="subjects" value="HISTORY">HISTORY
+            <input type="checkbox" id="subjects" value="MATHEMATICS">MATHEMATICS
+            <br><br>
+            <label>Country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="USA">USA</option>
+                <option value="Russia">Russia</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+            </select>
+            <br><br>
+            <label>Upload a file</label>
+            <input type="file" id="file-upload" name="Upload-file"><br><br>
+            <h2>Download File</h2>
+            <a herf="sample.txt" download="sample.pdf">Click here to download</a>
+            <br><br>
+            <input type="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
